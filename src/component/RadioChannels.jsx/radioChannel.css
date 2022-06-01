@@ -20,10 +20,13 @@
     border: 1px solid transparent;   
     transition: var(--transiton);
     
+    
 }
 .channel_item-image:hover{
     border-color: var(--color-primary-variant);
+    transition: var(--transiton);
     background: transparent;
+    transform: rotate(5deg);
   
 }
 
