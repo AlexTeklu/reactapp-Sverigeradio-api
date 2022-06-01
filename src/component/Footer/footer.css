@@ -23,6 +23,27 @@ display: inline-block;
     margin-bottom: 4rem;
     color: var(--color-white);
 }
+.footer_socials{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+
+}
+.footer_socials a{
+    background: var(--color-primary-variant);
+    color: var(--color-white);
+    padding: .8rem;
+    border-radius: .7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer_socials a:hover{
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-primary-variant);
+}
 
 
 /*///////////////// media-queries small screen////////// */
